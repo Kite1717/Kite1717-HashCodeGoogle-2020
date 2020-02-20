@@ -4,22 +4,24 @@
 #define max(x,y) x>y ? x : y
 main()
 {
-	int a[s+1] = {0,4,14,15,18,29,32,36,82,95,95};
-	int mat[s+1][t+1] = {0};
+	int a[s] = {4,14,15,18,29,32,36,82,95,95};
+	int bmat[s+1][t+1];
 	
 	int i ,j;
 	
-	for(i = 1; i <= s ; i++) // size
-	{  
-	   printf("[%3d  ]",a[i]);
-		for( j = 1; j <= t ;j++) //target
+	for ( j = 1; j <= t; j++)
+		bmat[0][j] = 0;
+
+	for (i = 0; i <= s; i++)
+		bmat[i][0] = 1;
+		
+	for ( i = 1; i <= s; i++)
+	{
+		for (j = 1; j <= t; j++)
 		{
-			mat[i][j] = (a[i] <= j) ? max(mat[i-1][j],a[i] + mat[i-1][j - a[i]]) : mat[i-1][j];
-			
-			printf("%3d",mat[i][j]);
-			
+		  bmat[i][j] = (a[i-1] <= j) ? ( bmat[i-1][j] || bmat[i-1][j - a[i-1]] ) : bmat[i - 1][j];
+		   printf("%3d",bmat[i][j]); 
 		}
-		printf("\n");
 	}
 	printf("\n\n\n");
 	
@@ -31,17 +33,16 @@ main()
     while (i > 0 && j > 0)
     {
 	
-        if (mat[i][j] != mat[i-1][j])
+        if (bmat[i][j] != bmat[i-1][j])
         {
-        printf("%3d  %3d\n",(i-1),a[i]);
-            j = j - a[i];
-            i--;	
+          printf("%3d  %3d\n",(i-1),a[i-1]);
+            j = j - a[i-1];
 		}
           
-        else
-            i--;
-        }
+        i --;
+    }
 
-	getch();
-	
+    getch();
+    
 }
+
