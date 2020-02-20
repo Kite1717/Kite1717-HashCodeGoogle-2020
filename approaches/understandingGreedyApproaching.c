@@ -9,11 +9,13 @@ main()
      int i = 0 , sum = t;
      
      //adding from the start to the end
-	 while(sum-a[i] >= 0)
+	 while(sum >= 0)
 	 {
 	 	//printf("%3d\n",sum);
+	 	if(sum - a[i] >= 0)
 	 	sum -= a[i];
 	 	i++;
+	 	if(i == s) break;
 	 	
 	 }
 	 // result Result :504959667
@@ -24,15 +26,17 @@ main()
 	//adding from the end to the start  
 	  i = s-1; sum = t;
 	  
-	  while(sum-a[i] >= 0)
+	  while(sum >= 0)
 	 {
-	 	//printf("%3d\n",sum);
+	  //	printf("%3d\n",sum);
+	 	if(sum - a[i] >= 0)
 	 	sum -= a[i];
 	 	i--;
+	 	if(i < 0) break;
 	 	
 	 }
 	  int result2 = t-sum;
-	  // Result :504995646
+	  // Result :504999983
 	  //printf("Result :%3d", t-sum ); 
 	  
 	   printf("Result 1 : %3d\t(adding from the start to the end)\nResult 2 : %3d\t(adding from the end to the start)\nDiffrence : %3d",result1,result2,(result1 > result2) ? result1 - result2 : result2-result1);
