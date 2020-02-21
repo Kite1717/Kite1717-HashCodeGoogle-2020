@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcecd917-eb85-4e67-b559-95a65c70422f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../approaches/understandingDynamicProgramming.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../approaches/understandingDynamicProgramming.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/.idea/markdown-doclet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/SolutionMorePizza.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/dataIn/a_example.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/dataIn/b_small.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/dataIn/c_medium.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/dataIn/d_quite_big.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/dataIn/e_also_big.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/dataOut/a_example.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/dataOut/b_small.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/dataOut/c_medium.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/dataOut/d_quite_big.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/dataOut/e_also_big.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/out/production/SolutionMorePizza/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SolutionMorePizza/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../approaches/understandingDynamicProgramming.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../approaches/understandingDynamicProgramming.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../approaches/understandingGreedyApproaching.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../approaches/understandingGreedyApproaching.exe" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,18 +69,20 @@
     <session id="695066690">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2175" />
+          <entry key="java" value="2256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2175" />
+          <entry key="JAVA" value="2256" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,14 +97,23 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-240636994">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+            <state relative-caret-position="340">
+              <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -86,7 +121,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -98,7 +133,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="265" />
-    <option name="y" value="11" />
+    <option name="y" value="10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -108,13 +143,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SolutionMorePizza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolutionMorePizza" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolutionMorePizza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolutionMorePizza" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolutionMorePizza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolutionMorePizza" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SolutionMorePizza" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SolutionMorePizza" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
               <item name="SolutionMorePizza" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -126,10 +177,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582205928700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582271754500" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -186,7 +240,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26302084" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13151042" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -195,7 +249,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -230,13 +284,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataIn/lala.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataIn/lala.in" />
     <entry file="file://$PROJECT_DIR$/dataIn/e_also_big.in">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -264,9 +312,7 @@
     <entry file="file://$PROJECT_DIR$/dataIn/c_medium.in">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataOut/..out">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataOut/..out" />
     <entry file="file://$PROJECT_DIR$/dataOut/b_small.out">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -284,8 +330,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+        <state relative-caret-position="340">
+          <caret line="57" column="39" lean-forward="true" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
         </state>
       </provider>
     </entry>
