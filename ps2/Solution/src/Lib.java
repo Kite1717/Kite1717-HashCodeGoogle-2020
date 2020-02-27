@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Map;
 
 public class Lib implements ISort{
@@ -14,7 +15,7 @@ public class Lib implements ISort{
     }
 
 
-    public  void deleteScannedBook(int[] indexes)
+    public  void deleteScannedBook(ArrayList<Integer> indexes)
     {
         for (int i : indexes)
             books.remove(i);
