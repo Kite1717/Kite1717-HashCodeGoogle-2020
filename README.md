@@ -18,7 +18,7 @@
 | B – read on  |    5,822,900 |
 | C – incunabula  |    5,689,989  |
 | D – tough choices  |     5,028,790   |
-| E – so many books  |    5,095,340  |
-|F – libraries of the world   |    5,282,747  |
+| E – so many books  |    5,104,201  |
+|F – libraries of the world   |    5,322,233  |
 |   |   |   |
-| **Total score**  |    26.919.787  |
+| **Total score**  |    **26.968.134**  |
