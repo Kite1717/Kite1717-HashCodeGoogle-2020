@@ -22,3 +22,7 @@
 |F – libraries of the world   |    5,322,233  |
 |   |   |   |
 | **Total score**  |    **26.968.134**  |
+
+**Global Rank : #188**
+
+**Turkey Rank : #3**
