@@ -68,10 +68,10 @@ public class Helper {
            pieces = reader.nextLine().split(" ");
 
 
-           HashMap<Integer,Integer> books = new HashMap<>();
+           HashMap<Integer,Double> books = new HashMap<>();
            //I placed books
            for(int i = 0; i < pieces.length ; i++)
-               books.put(i,Integer.parseInt(pieces[i]));
+               books.put(i,Double.parseDouble(pieces[i]));
              objs.add(books.size());
 
 
@@ -82,7 +82,7 @@ public class Helper {
                 libs.add(new Lib(Integer.parseInt(pieces[1]),Integer.parseInt(pieces[2])));
 
                 pieces = reader.nextLine().split(" ");
-               LinkedHashMap<Integer,Integer> libBook = new LinkedHashMap<>();
+               LinkedHashMap<Integer,Double> libBook = new LinkedHashMap<>();
 
                for (int i = 0; i < pieces.length ; i++)
                {

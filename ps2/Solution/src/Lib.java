@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.Map;
 
-public class Lib implements ISort{
+public class Lib implements ISort ,Cloneable{
 
     private final int singUpTime ;
     private final int scanPerDay;
-    private Map<Integer,Integer> books;
+    private Map<Integer,Double> books;
     private boolean isUsed;
 
     public Lib(int singUpTime, int scanPerDay) {
@@ -23,10 +23,10 @@ public class Lib implements ISort{
     }
 
 
-
-
-
-
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
 
     public int getSingUpTime() {
         return singUpTime;
@@ -37,11 +37,11 @@ public class Lib implements ISort{
         return scanPerDay;
     }
 
-    public Map<Integer, Integer> getBooks() {
+    public Map<Integer, Double> getBooks() {
         return books;
     }
 
-    public void setBooks(Map<Integer, Integer> books) {
+    public void setBooks(Map<Integer, Double> books) {
         this.books = ISort.sortByValueReverseOrder(books);
     }
 
